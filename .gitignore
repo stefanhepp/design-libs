@@ -17,3 +17,11 @@ fp-info-cache
 
 # Ignore FreeCAD backups
 *.FCStd1
+
+# Ignore Blender backups
+*.blend1
+
+# Ignore Dia and Draw.io backups
+*.dia~
+*.dtmp
+*.drawio.bkp

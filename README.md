@@ -1,7 +1,17 @@
 README
 ------
 
-This repository contains various designs for my CNC machine.
+Collection of design files and templates for 3D modelling and PCB design.
+
+Additional Libraries, ...
+-------------------------
+
+### KiCAD Libraries
+
+- Teensy Symbols, footprints, 3D models
+    - https://github.com/XenGi/teensy_library
+    - https://github.com/XenGi/teensy.pretty
+
 
 License
 -------
