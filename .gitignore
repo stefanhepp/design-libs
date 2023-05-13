@@ -25,3 +25,13 @@ fp-info-cache
 *.dia~
 *.dtmp
 *.drawio.bkp
+
+# Ignore object binaries
+*.elf
+*.hex
+*.pyc
+*.o
+
+# Ignore editor temp files
+*.swp
+
