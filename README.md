@@ -11,6 +11,8 @@ Additional Libraries, ...
 - Teensy Symbols, footprints, 3D models
     - https://github.com/XenGi/teensy_library
     - https://github.com/XenGi/teensy.pretty
+- Arduino Symbols, footprints, 3D models
+    - https://github.com/g200kg/kicad-lib-arduino.git
 
 
 License
