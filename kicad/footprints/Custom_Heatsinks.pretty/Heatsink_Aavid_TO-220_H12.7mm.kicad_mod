@@ -1,0 +1,215 @@
+(footprint "Heatsink_Aavid_TO-220_H12.7mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "HS1"
+		(at 0 -3.048 0)
+		(layer "F.SilkS")
+		(uuid "d314f36f-76f4-43ac-9010-a4d7a8d55fbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_Pad"
+		(at 0 12.446 0)
+		(layer "F.Fab")
+		(uuid "1b10c7bd-ff81-4ec4-b5d5-053278faca7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d81f9c5-f2f1-445f-b945-d7bb7136d32c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c50b260-5da9-4fee-8c14-8168e1985f46")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Heatsink with electrical connection, 1 pin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0cf0c37-aa60-4e3f-99dd-82fca94db9fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.604 -1.27)
+		(end -6.604 11.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75db7379-3419-42c8-839f-5aa7f35970aa")
+	)
+	(fp_line
+		(start -6.604 11.43)
+		(end -5.334 11.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4af3b63-a5da-4951-9ee0-5db737066a05")
+	)
+	(fp_line
+		(start -5.334 0)
+		(end -1.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eecdc1d7-17fe-46a7-a17f-957e4fdc4d25")
+	)
+	(fp_line
+		(start -5.334 11.43)
+		(end -5.334 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7df9854-cd93-4dcb-a1a1-d56dd337556d")
+	)
+	(fp_line
+		(start -3.048 -2.286)
+		(end -1 -2.286)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3270c591-eb1b-4a38-9de0-eb7e38241bc6")
+	)
+	(fp_line
+		(start -3.048 -1.27)
+		(end -3.048 -2.286)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a20ca74a-0181-437f-830e-9b613a5f4bae")
+	)
+	(fp_line
+		(start -1.7 -1.27)
+		(end -6.604 -1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fdf56f2-c064-4de8-8d47-faeb8060951a")
+	)
+	(fp_line
+		(start 1.5 0)
+		(end 5.334 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1c466f7-cd24-4c72-a450-3ec115071083")
+	)
+	(fp_line
+		(start 3.048 -2.286)
+		(end 1.017015 -2.287308)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86e6690f-5fc2-4ce7-b4b4-9401fee72da4")
+	)
+	(fp_line
+		(start 3.048 -2.286)
+		(end 3.048 -1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "388ee260-3138-4279-a6b6-045db3541642")
+	)
+	(fp_line
+		(start 5.334 0)
+		(end 5.334 11.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1e44ec5-2575-43cc-8eed-ea66a31c7b27")
+	)
+	(fp_line
+		(start 5.334 11.43)
+		(end 6.604 11.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36df136b-4911-4b33-8c77-da9485651511")
+	)
+	(fp_line
+		(start 6.604 -1.27)
+		(end 1.7 -1.269522)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6e89dc6-f771-4bfd-93ec-9cf7110efaac")
+	)
+	(fp_line
+		(start 6.604 11.43)
+		(end 6.604 -1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "255ad1f9-8360-4ee1-909b-f065207bfecb")
+	)
+	(pad "1" thru_hole circle
+		(at 0.0127 -0.8763)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.3)
+		(zone_connect 1)
+		(uuid "06d40ebe-1ad3-4fd1-9484-c6d91fce319a")
+	)
+)
