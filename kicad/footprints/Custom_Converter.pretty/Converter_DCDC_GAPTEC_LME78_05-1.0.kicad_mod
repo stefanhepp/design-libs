@@ -6,7 +6,7 @@
 	(descr "DCDC-Converter, RECOM, RECOM_R-78E-0.5, SIP-3, pitch 2.54mm, package size 11.6x8.5x10.4mm^3, https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf")
 	(tags "dc-dc recom buck sip-3 pitch 2.54mm")
 	(property "Reference" "REF**"
-		(at 2.54 -7.56 0)
+		(at 2.5 -7 0)
 		(layer "F.SilkS")
 		(uuid "68fd509c-6ed2-42b1-a74a-e556d575c420")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Converter_DCDC_GAPTEC_LME78_05-1.0"
-		(at 2.54 3 0)
+		(at 2.5 3.5 0)
 		(layer "F.Fab")
 		(uuid "62b75e45-494f-4fde-8c6e-151752ca61d4")
 		(effects
@@ -65,8 +65,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3.611 1.06)
-		(end -3.611 2.3)
+		(start -3.507719 1.321602)
+		(end -3.507719 2.561602)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "373d88e6-00f7-464d-8027-07774fb42e13")
 	)
 	(fp_line
-		(start -3.611 2.3)
-		(end -2.371 2.3)
+		(start -3.507719 2.561602)
+		(end -2.267719 2.561602)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "8b111c3c-336d-4666-a54d-efdf45c81f28")
 	)
 	(fp_line
-		(start -3.371 -6.56)
-		(end -3.371 2.06)
+		(start -3.26 -5.7)
+		(end -3.26 2.3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "022e98eb-2444-433d-a9a2-16fcdd1df15c")
 	)
 	(fp_line
-		(start -3.371 -6.56)
-		(end 8.35 -6.56)
+		(start -3.26 -5.7)
+		(end 8.36 -5.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "d3c15c03-1825-45f8-9845-d1ab0ee4be93")
 	)
 	(fp_line
-		(start -3.371 2.06)
-		(end 8.35 2.06)
+		(start -3.26 2.3)
+		(end 8.36 2.3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "71cad38e-1c65-4e5d-9c76-30c52d0b7ce1")
 	)
 	(fp_line
-		(start 8.35 -6.56)
-		(end 8.35 2.06)
+		(start 8.36 -5.7)
+		(end 8.36 2.3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "b6683dd7-17df-4554-ac95-49327292b31f")
 	)
 	(fp_line
-		(start -3.57 -6.75)
-		(end -3.57 2.25)
+		(start -3.507719 -6)
+		(end -3.494932 2.563038)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "bda63b35-5bc0-4edf-add3-c334af8cfe1b")
 	)
 	(fp_line
-		(start -3.57 2.25)
-		(end 8.54 2.25)
+		(start -3.494932 2.563038)
+		(end 8.615068 2.563038)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "fa8ef780-62d0-46ca-9f4d-b6874fe889ff")
 	)
 	(fp_line
-		(start 8.54 -6.75)
-		(end -3.57 -6.75)
+		(start 8.61 -6)
+		(end -3.5 -6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "bea5a855-506e-4ec3-92ff-befcf2a46d29")
 	)
 	(fp_line
-		(start 8.54 2.25)
-		(end 8.54 -6.75)
+		(start 8.615068 2.563038)
+		(end 8.626743 -6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,18 +165,8 @@
 		(uuid "31c25f08-d109-4a01-9e84-3db8b904c054")
 	)
 	(fp_line
-		(start -3.31 -6.5)
-		(end 8.29 -6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "10a15fcd-57aa-47ef-9ab3-bed17dd4b410")
-	)
-	(fp_line
-		(start -3.31 1)
-		(end -3.31 -6.5)
+		(start -3.260374 1.334527)
+		(end -3.256763 -5.697756)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -185,8 +175,18 @@
 		(uuid "74bf8ad1-7c55-41f4-b65c-819a42a99ce1")
 	)
 	(fp_line
-		(start -2.31 2)
-		(end -3.31 1)
+		(start -3.256763 -5.697756)
+		(end 8.343237 -5.697756)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10a15fcd-57aa-47ef-9ab3-bed17dd4b410")
+	)
+	(fp_line
+		(start -2.260374 2.334527)
+		(end -3.260374 1.334527)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -195,24 +195,24 @@
 		(uuid "411f8dae-8fbe-4703-b623-6bbfdfe2ab0b")
 	)
 	(fp_line
-		(start 8.29 -6.5)
-		(end 8.29 2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b73052b0-0c15-4afc-afc5-7606ff7f431c")
-	)
-	(fp_line
-		(start 8.29 2)
-		(end -2.31 2)
+		(start 8.339626 2.334527)
+		(end -2.260374 2.334527)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "d3b2fc2f-e664-4cee-bd46-117ecb23826b")
+	)
+	(fp_line
+		(start 8.343237 -5.697756)
+		(end 8.339626 2.334527)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b73052b0-0c15-4afc-afc5-7606ff7f431c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.54 -2.25 0)
