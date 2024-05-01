@@ -376,6 +376,197 @@
 				)
 			)
 		)
+		(symbol "Amplifier_Current:NCS210"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NCS210"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Current shunt monitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SC?70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCS210_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCS210_1_1"
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -690,6 +881,18 @@
 			)
 		)
 	)
+	(junction
+		(at 193.04 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "963c4754-625d-4db0-aecf-42cba9d1e1aa")
+	)
+	(junction
+		(at 191.77 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7d57213-92a3-443a-87d0-9071df7a51ca")
+	)
 	(wire
 		(pts
 			(xy 93.98 81.28) (xy 100.33 81.28)
@@ -762,6 +965,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 73.66) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45252696-cd70-45c3-b4c8-b8e0e301c9d8")
+	)
+	(wire
+		(pts
 			(xy 191.77 66.04) (xy 93.98 66.04)
 		)
 		(stroke
@@ -769,6 +982,16 @@
 			(type default)
 		)
 		(uuid "55798be8-5578-49d7-94ea-e4a954d3b412")
+	)
+	(wire
+		(pts
+			(xy 191.77 81.28) (xy 201.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5221fb-c179-45ff-8e0c-58efdb77170a")
 	)
 	(wire
 		(pts
@@ -792,6 +1015,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 86.36) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2a71f4-c0e4-4b55-bcb7-ecd2788c4174")
+	)
+	(wire
+		(pts
 			(xy 120.65 91.44) (xy 135.89 91.44)
 		)
 		(stroke
@@ -809,6 +1042,16 @@
 			(type default)
 		)
 		(uuid "81df0990-ccd3-461b-81af-5f27429f6bd3")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830de138-9cd3-4023-9676-348b3412591a")
 	)
 	(wire
 		(pts
@@ -879,6 +1122,26 @@
 			(type default)
 		)
 		(uuid "b1220ce3-d728-4028-b4b7-26da2aa48689")
+	)
+	(wire
+		(pts
+			(xy 212.09 93.98) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41b8c7d-6ec2-4924-9062-146411bcb69e")
+	)
+	(wire
+		(pts
+			(xy 212.09 91.44) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b857e587-fc0a-4ecf-aee8-cfc0b9fbdc8c")
 	)
 	(wire
 		(pts
@@ -969,6 +1232,88 @@
 			(type default)
 		)
 		(uuid "fec8952d-8f9b-4ee9-b262-4fa95731d478")
+	)
+	(symbol
+		(lib_id "Amplifier_Current:NCS210")
+		(at 212.09 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05fe54b6-7b9d-4186-b3c0-3a2a1e3f729b")
+		(property "Reference" "U3"
+			(at 214.2841 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCS210"
+			(at 214.2841 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF"
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6"
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ef6f31e6-32fe-42ef-8085-6479ae888506")
+		)
+		(pin "1"
+			(uuid "89cd20bc-1301-457d-8354-59ab7e3de01a")
+		)
+		(pin "4"
+			(uuid "619175c5-5c25-47d3-8213-9d4539db6aed")
+		)
+		(pin "6"
+			(uuid "2d859791-57a4-47ef-8a83-7684a4a17259")
+		)
+		(pin "2"
+			(uuid "5070016b-8d8c-4ede-9df9-0df662e7dff7")
+		)
+		(pin "5"
+			(uuid "32faf9ef-6c77-43b4-9934-19a5e8122c5c")
+		)
+		(instances
+			(project "PCB-Test"
+				(path "/593abbd4-ef60-40c7-bfd9-9972546c7088"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
