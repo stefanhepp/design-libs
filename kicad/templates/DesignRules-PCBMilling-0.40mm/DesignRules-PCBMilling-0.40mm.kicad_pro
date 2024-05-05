@@ -128,7 +128,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.8,
         "min_track_width": 0.4,
-        "min_via_annular_width": 0.5,
+        "min_via_annular_width": 0.35,
         "min_via_diameter": 2.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -179,7 +179,9 @@
       "track_widths": [
         0.0,
         0.4,
-        0.5
+        0.5,
+        0.6,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -252,7 +254,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 1.8,
+        "via_diameter": 2.0,
         "via_drill": 0.8,
         "wire_width": 6
       },
