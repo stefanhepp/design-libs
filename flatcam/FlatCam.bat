@@ -8,5 +8,5 @@ call %CONDA%\Scripts\activate.bat activate
 @echo Activate Conda environment
 call conda activate %FLATCAM_ENV%
 
-@echo Start FlatCam
+@echo Start FlatCam: %FLATCAM_PATH%\FlatCam.py
 call python %FLATCAM_PATH%\FlatCam.py
