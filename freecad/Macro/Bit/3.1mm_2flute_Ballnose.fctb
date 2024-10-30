@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "3.176mm 2-flute Ballnose",
+  "shape": "bullnose.fcstd",
+  "parameter": {
+    "Chipload": "0,00 mm",
+    "CuttingEdgeHeight": "12,00 mm",
+    "Diameter": "3,18 mm",
+    "FlatRadius": "0,00 mm",
+    "Flutes": "2",
+    "Length": "25,00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "3,18 mm"
+  },
+  "attribute": {}
+}

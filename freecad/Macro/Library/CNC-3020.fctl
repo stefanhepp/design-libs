@@ -1,0 +1,37 @@
+{
+  "tools": [
+    {
+      "nr": 1,
+      "path": "2mm_2flute_Endmill.fctb"
+    },
+    {
+      "nr": 2,
+      "path": "3mm_2flute_Endmill.fctb"
+    },
+    {
+      "nr": 3,
+      "path": "3.1mm_2flute_Ballnose.fctb"
+    },
+    {
+      "nr": 4,
+      "path": "3.1mm_2flute_Endmill.fctb"
+    },
+    {
+      "nr": 5,
+      "path": "3.1mm_4flute_Endmill.fctb"
+    },
+    {
+      "nr": 6,
+      "path": "4mm_60degree_Vbit.fctb"
+    },
+    {
+      "nr": 7,
+      "path": "6mm_UpDown_Endmill.fctb"
+    },
+    {
+      "nr": 8,
+      "path": "25mm Surfacing Endmill.fctb"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "6mm 2-flute Up-Down Cut Endmill",
+  "shape": "endmill.fcstd",
+  "parameter": {
+    "Chipload": "0,00 mm",
+    "CuttingEdgeHeight": "20,00 mm",
+    "Diameter": "6,00 mm",
+    "Flutes": "2",
+    "Length": "30,00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "6,00 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {}
+}

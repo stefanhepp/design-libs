@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "25mm Surfacing Endmill",
+  "shape": "endmill.fcstd",
+  "parameter": {
+    "Chipload": "0,00 mm",
+    "CuttingEdgeHeight": "6,40 mm",
+    "Diameter": "25,00 mm",
+    "Flutes": "3",
+    "Length": "20,00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "6,00 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {}
+}
