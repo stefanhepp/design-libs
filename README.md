@@ -15,6 +15,9 @@ The `kicad/symbols` folder contains the following symbol libraries:
 - `Custom_Symbols`: A library of various schematic symbols.
     - `R_Pack04_SIL`: A copy of the KiCAD `R_Pack04` symbol, but using throughhole SIL package footprint and pin numbering, since the standard KiCAD SIL symbols use too much space.
     - `Mini-DIN-2x6`: Two mini-DIN 6pin units in one symbol, to use with a dual-miniDIN-6 socket
+- `Custom_MCU_Module': A library of MCU devkit symbols.
+    - `ESP32-DevKitC_fixed`: A copy of the Expressif ESP32 38pin devkit symbol, but using alternative footprints.
+    - `ESP32-WROOM32-Devkit`: Symbol for the 30pin ESP32 dev boards.
 
 ### Footprints and 3D Models
 
@@ -22,6 +25,7 @@ The `kicad/footprints` folder contains the following footprint libraries:
 - `Custom_Heatsinks.pretty`: A footprint library for various heatsinks.
     - `Heatsink_Aavid_TO-220_H12.7mm`: Simple TO220 heatsink
 - `Custom_Connectors.pretty`: A footprint library for various connectors.
+- `Custom_Module.pretty`: A footprint library for various MCU devkit modules.
 
 The `kicad/3dmodels` folder contains the following 3D models, used with the footprints:
 - `Custom_Connectors.3dmodels`: 3D models of connectors
