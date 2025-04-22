@@ -1,4 +1,4 @@
-(footprint "ESP32-WROOM32-DevKit_NoMountingHoles"
+(footprint "ESP32-WROOM32-DevKit_MountingHoles"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -517,6 +517,42 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0.75 -4)
+		(size 4 4)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "3b238f6e-cef2-457b-ba3d-ea31a977fd39")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0.75 43)
+		(size 4 4)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "a3633f72-9ad0-4e40-b112-cfc3758db1fe")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 24.75 -4)
+		(size 4 4)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "d871b8da-9ac0-45d3-98e6-25a9ccb4dd2d")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 24.75 43)
+		(size 4 4)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "8cf59859-f298-427c-b616-9a36189cbdb8")
 	)
 	(pad "1" thru_hole rect
 		(at 0 0 270)
