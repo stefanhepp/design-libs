@@ -109,8 +109,8 @@
 		(uuid "93dced74-f871-4b17-9e71-652900ddaed5")
 	)
 	(fp_line
-		(start -0.508 -2.75)
-		(end -0.508 1.85)
+		(start -1.016 -2.75)
+		(end -1.016 1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -119,8 +119,8 @@
 		(uuid "e51508ef-1469-4fbd-8d54-8491abfe77ee")
 	)
 	(fp_line
-		(start -0.508 -2.75)
-		(end 5.588 -2.75)
+		(start -1.016 -2.75)
+		(end 6.096 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -129,8 +129,8 @@
 		(uuid "c2e0f346-2e56-4639-9a70-7f8d9c062a85")
 	)
 	(fp_line
-		(start 5.588 1.85)
-		(end -0.508 1.85)
+		(start 6.096 1.85)
+		(end -1.016 1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -139,8 +139,8 @@
 		(uuid "4a12f13d-1d86-4f86-8e92-09ffea8e913e")
 	)
 	(fp_line
-		(start 5.588 1.85)
-		(end 5.588 -2.75)
+		(start 6.096 1.85)
+		(end 6.096 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -192,7 +192,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at 0.508 0)
+		(at 0 0)
 		(size 1.7 1.5)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -208,7 +208,7 @@
 		(uuid "e88a7ef4-c85f-4a13-b36e-b0ce7b1f22c2")
 	)
 	(pad "3" thru_hole circle
-		(at 4.572 0)
+		(at 5.08 0)
 		(size 1.7 1.7)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
